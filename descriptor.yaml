@@ -1,0 +1,13 @@
+code: inventory-bundle
+description: This is the inventory bundle
+
+components:
+  plugins:
+    - plugins/inventory-plugin.yaml
+
+  widgets:
+    - ui/widgets/location/tableWidget/location-table-widget-descriptor.yaml
+    - ui/widgets/location/detailsWidget/location-details-widget-descriptor.yaml
+    - ui/widgets/location/formWidget/location-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+

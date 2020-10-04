@@ -1,0 +1,6 @@
+code: location-details-widget
+titles:
+  en: Location Details Widget
+  it: Location Details Widget
+group: free
+customUiPath: location-details-widget.ftl

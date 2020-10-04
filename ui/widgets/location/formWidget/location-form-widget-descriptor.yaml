@@ -1,0 +1,6 @@
+code: location-form-widget
+titles:
+  en: Location Form Widget
+  it: Location Form Widget
+group: free
+customUiPath: location-form-widget.ftl

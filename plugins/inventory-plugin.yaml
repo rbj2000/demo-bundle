@@ -1,0 +1,20 @@
+kind: "EntandoPlugin"
+apiVersion: "entando.org/v1"
+metadata:
+  name: "inventory-plugin"
+spec:
+  image: rbj2000/inventory:0.0.1-SNAPSHOT
+  replicas: 1
+  dbms: postgresql
+  parameters: {}
+  ingressPath: "/inventory"
+  healthCheckPath: "/management/health"
+  securityLevel: "strict"
+  connectionConfigNames: []
+  permissions: []
+  roles:
+  - name: inventory-admin
+    code: inventory-admin
+  - name: location-admin
+    code: "location-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here

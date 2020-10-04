@@ -1,0 +1,6 @@
+code: location-table-widget
+titles:
+  en: Location Table Widget
+  it: Location Table Widget
+group: free
+customUiPath: location-table-widget.ftl

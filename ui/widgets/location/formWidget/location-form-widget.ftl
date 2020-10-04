@@ -1,0 +1,12 @@
+<#assign wp=JspTaglibs["/aps-core"]>
+<script src="<@wp.resourceURL />inventory-bundle/static/js/2.8c1b7ab6.chunk.js"></script>
+<script src="<@wp.resourceURL />inventory-bundle/static/js/2.8c1b7ab6.chunk.js.map"></script>
+<script src="<@wp.resourceURL />inventory-bundle/static/js/main.3d1d5dfa.chunk.js"></script>
+<script src="<@wp.resourceURL />inventory-bundle/static/js/main.3d1d5dfa.chunk.js.map"></script>
+<script src="<@wp.resourceURL />inventory-bundle/static/js/runtime~main.89e6d30a.js"></script>
+<script src="<@wp.resourceURL />inventory-bundle/static/js/runtime~main.89e6d30a.js.map"></script>
+<#-- entando_resource_injection_point -->
+<#-- Don't add anything above this line. The build scripts will automatically link the compiled JS and CSS for you and add them above this line so that the widget can be loaded-->
+
+<#-- This is the custom element -->
+<location-form service-url="/inventory/api" />
